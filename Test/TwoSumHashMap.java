@@ -19,6 +19,7 @@ public class TwoSumHashMap {
         for(int i=0;i<nums.length;i++){
            if(map.containsKey(target-nums[i])){
             System.out.println("Indices: "+map.get(target-nums[i])+" and "+i);
+                sc.close();
             return;
            }
            else{
@@ -28,7 +29,6 @@ public class TwoSumHashMap {
         }
         System.out.println("No solution found.");
        
-        sc.close();
     }
 
     
