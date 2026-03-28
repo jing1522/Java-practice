@@ -28,7 +28,7 @@ public class TwoSumHashMap {
           
         }
         System.out.println("No solution found.");
-       
+        sc.close();
     }
 
     
